@@ -1,2 +1,2 @@
-# NSS
- Fork this website using nss for ease of publishing
+# SVCG
+ Fork this website using SVCG for ease of publishing
