@@ -35,7 +35,29 @@
   padding-right: calc((100% - 400px) / 2);
 }
 
+       /* Marquee Start */
 
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: marquee-animation 15s linear infinite;
+        }
+
+        @keyframes marquee-animation {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    /* Marquee End */
     </style>
 </head>
 <body>
@@ -72,6 +94,13 @@
               </button>
             </div>
           </header>
+<!-- Marquee tag for form  -->
+
+<div class="marquee-container">
+  <div class="marquee-content">
+      <p> <a href="https://forms.gle/hhE4mG4bXrJqSzK76" target="_blank">Click here to access the Google Form: Google Form Link</a></p>
+  </div>
+</div>
 
           <!-- Hero Section  -->
           <section class="text-gray-600 body-font">
@@ -92,11 +121,7 @@
             </div> -->
 
         
-        <div class="flex justify-center items-center">
-          <img src="Media/SVG and other images/unit 21-22.jpg" width="720" alt="Description of the image">
-      </div>
-      
-      <!-- SVCG Parade info -->
+      <!-- SVCG Parade info
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -112,10 +137,10 @@
             </p>
           </div>
         </div>
-      </section>
+      </section> -->
       <hr>
 
-      <!-- SVCG camp -->
+      <!-- SVCG camp
       
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -129,7 +154,7 @@
               Participants engaged in a range of activities, including educational initiatives, health awareness campaigns, and environmental projects. The camaraderie and shared sense of purpose among the SVCG volunteers created a memorable experience, fostering not only personal growth but also leaving a positive impact on the communities served. The SVCG camp in Ghana exemplified the spirit of volunteerism and international cooperation, leaving lasting impressions on both the volunteers and the local residents.</p>
           </div>
         </div>
-      </section>
+      </section> -->
       <hr>
 
       
