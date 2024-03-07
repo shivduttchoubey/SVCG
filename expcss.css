@@ -322,48 +322,48 @@
   /* Change Gallery Images */
   
   section div:first-of-type {
-    background-image: url();
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/1.jpeg?raw=true");
   }
   
   section div + div {
-    background-image: url("https://picsum.photos/id/515/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/2.jpeg?raw=true");
   }
   
   section div + div + div {
-    background-image: url("https://picsum.photos/id/424/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/3.jpeg?raw=true");
   }
   
   section div + div + div + div {
-    background-image: url("https://picsum.photos/id/849/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/4.jpeg?raw=true");
   }
   
   section div + div + div + div + div {
-    background-image: url("https://picsum.photos/id/476/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/5.jpeg?raw=true");
   }
   
   section div + div + div + div + div + div {
-    background-image: url("https://picsum.photos/id/57/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/6.jpeg?raw=true");
   }
   
   section div + div + div + div + div + div + div {
-    background-image: url("https://picsum.photos/id/82/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/7.jpeg?raw=true");
   }
   
   section div + div + div + div + div + div + div + div {
-    background-image: url("https://picsum.photos/id/680/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/8.jpeg?raw=true");
   }
   
   section div + div + div + div + div + div + div + div + div {
-    background-image: url("https://picsum.photos/id/553/500/500");
+    background-image: url("https://github.com/shivduttchoubey/SVCG/blob/4eadbbfd49ffb7861aa18438eedb65f59caadca3/Media/Events/Year%202024/Petrolleum%20Event/9.jpeg?raw=true");
   }
   
-  section div + div + div + div + div + div + div + div + div + div {
+  /* section div + div + div + div + div + div + div + div + div + div {
     background-image: url("https://picsum.photos/id/193/500/500");
   }
   
   section div:last-of-type {
     background-image: url("https://picsum.photos/id/565/500/500");
-  }
+  } */
   
   @media (max-width: 900px) {
     figure {
